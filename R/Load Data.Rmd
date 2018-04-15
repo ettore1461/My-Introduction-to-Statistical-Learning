@@ -1,0 +1,78 @@
+---
+title: "Load Dataset"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+```
+
+# Titanic dataset
+```{r}
+Titanic <- read.csv("https://raw.githubusercontent.com/ettore1461/My-Introduction-to-Statistical-Learning/master/Dataset/titanic/train.csv")
+head(Titanic)
+```
+
+```{r}
+summary(Titanic)
+```
+
+# House Price dataset
+
+```{r}
+HousePrice <- read.csv("https://raw.githubusercontent.com/ettore1461/My-Introduction-to-Statistical-Learning/master/Dataset/house-prices-advanced-regression-techniques/test.csv")
+head(HousePrice)
+```
+
+```{r}
+summary(HousePrice)
+```
+
+
+# Digit Recognizer
+
+```{r}
+Digit <- read.csv("https://raw.githubusercontent.com/ettore1461/My-Introduction-to-Statistical-Learning/master/Dataset/digit-recognizer/test.csv")
+head(Digit)
+```
+
+```{r}
+summary(Digit)
+```
+
+# Boston
+
+```{r}
+Boston <- read.csv("https://raw.githubusercontent.com/ettore1461/My-Introduction-to-Statistical-Learning/master/Dataset/Boston/train.csv")
+head(Boston)
+```
+
+```{r}
+summary(Boston)
+```
+
+# PimaDB
+
+```{r}
+PimaDB <- read.csv("https://raw.githubusercontent.com/ettore1461/My-Introduction-to-Statistical-Learning/master/Dataset/PimaDB/PimaDB.csv")
+head(PimaDB)
+```
+
+```{r}
+summary(PimaDB)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
