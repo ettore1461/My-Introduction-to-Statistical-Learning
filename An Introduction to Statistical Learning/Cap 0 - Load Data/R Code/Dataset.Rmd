@@ -1,0 +1,94 @@
+---
+title: "Dataset"
+output: html_notebook
+---
+
+# Load Dataset
+i dataset sono disponibili [qui](http://www-bcf.usc.edu/~gareth/ISL/data.html)
+
+## Advertising
+
+```{r}
+Advertising=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv")
+head(Advertising)
+```
+
+```{r}
+summary(Advertising)
+```
+
+## Auto
+
+```{r}
+Auto=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Auto.csv")
+head(Auto)
+```
+
+```{r}
+summary(Auto)
+```
+
+
+
+## College
+
+```{r}
+College=read.csv("http://www-bcf.usc.edu/~gareth/ISL/College.csv")
+head(College)
+```
+
+```{r}
+summary(College)
+```
+
+## Credit
+
+```{r}
+Credit=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Credit.csv")
+head(Credit)
+```
+
+```{r}
+summary(Credit)
+```
+
+
+## Income
+
+### Income 1
+
+```{r}
+Income1=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Income1.csv")
+head(Income1)
+```
+
+```{r}
+summary(Income1)
+```
+
+### Income 2
+
+```{r}
+Income2=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Income2.csv")
+head(Income2)
+```
+
+```{r}
+summary(Income2)
+```
+
+
+## Heart
+
+```{r}
+Heart=read.csv("http://www-bcf.usc.edu/~gareth/ISL/Heart.csv")
+head(Heart)
+```
+
+```{r}
+summary(Heart)
+```
+
+
+
+
